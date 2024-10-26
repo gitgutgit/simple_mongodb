@@ -10,11 +10,14 @@ conda create -n myenv ... like this (recommended)
 
 conda install pymongo
 
-conda install toml (for server, local machine no required)
+===================for cloud version=====
+conda install toml
 
-secrets.toml formats (if you want to change the toml files ,then also need to change the .gitignore)
+must need to create secrets.toml files on same directory (if you want to change the toml files ,then also need to change the .gitignore)
 
 (!!in secrets.toml only one line space between each line)
+
+below is content of secrets.toml
 
 [database]
 
