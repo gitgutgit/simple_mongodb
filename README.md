@@ -13,10 +13,9 @@ conda install pymongo
 conda install toml (for server, local machine no required)
 
 secrets.toml formats (if you want to change the toml files ,then also need to change the .gitignore)
-"""
+
 [database]
 url = "URLURLLLLLL"
-"""
 
 # explanation
 
