@@ -14,6 +14,8 @@ conda install toml (for server, local machine no required)
 
 secrets.toml formats (if you want to change the toml files ,then also need to change the .gitignore)
 
+(!!in secrets.toml only one line space between each line)
+
 [database]
 
 url = "URLURLLLLLL"
