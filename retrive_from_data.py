@@ -8,7 +8,7 @@ config = toml.load("secrets.toml")
 URL = config["database"]["url"]
 
 
-URLEXAMPLE = "mongodb+srv://<dbname>:<dbpassword>@cluster0.t5abf.mongodb.net/"
+# URLEXAMPLE = "mongodb+srv://<dbname>:<dbpassword>@cluster0.t5abf.mongodb.net/"
 
 client = MongoClient(URL)
 

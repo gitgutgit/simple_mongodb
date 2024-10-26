@@ -10,7 +10,7 @@ URL = config["database"]["url"]
 
 # Connect to MongoDB (assuming MongoDB is running locally)
 
-URLEXAMPLE  = "mongodb+srv://<dbname>:<dbpassword>@cluster0.t5abf.mongodb.net/"
+# URLEXAMPLE  = "mongodb+srv://<dbname>:<dbpassword>@cluster0.t5abf.mongodb.net/"
 client = MongoClient(URL)
 
 # Select the database and collection
